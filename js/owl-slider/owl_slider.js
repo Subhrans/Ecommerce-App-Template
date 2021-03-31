@@ -19,9 +19,10 @@ $(document).ready(function(){
     loop:true,
     margin:10,
     nav:true,
+    responsive:true,
     responsive:{
         0:{
-            items:1
+            items:2
         },
         600:{
             items:3
