@@ -22,13 +22,13 @@
 <body>
     <section>
         <div class="container-fluid">
-            <div class="row">
+            <div class="row ">
                 <div class="col">
                     <p class="h4 text-center"> Shopping Cart</p>
                 </div>
             </div>
-            <div class="row container">
-                <div class="col-md-8">
+            <div class="row d-flex justify-content-around mt-5">
+                <div class="col-md-6 border" style="max-height: 500px; overflow:scroll;">
                     <div class="card mb-3 border-left-0 border-right-0 border-bottom-0" style="max-width: 50rem;">
                         <div class="row no-gutters">
                             <div class="col-md-4">
@@ -42,9 +42,9 @@
 
                                     <div class="d-flex">
                                         <p>Quantity:</p>
-                                        <button type="button" class="btn btn-sm btn-primary mx-4">-</button>
+                                        <button type="button" class="btn btn-sm btn-primary mx-4"><i class="fa fa-minus"></i></button>
                                         <p class="mt-2">1</p>
-                                        <button type="button" class="btn btn-sm btn-primary mx-4">+</button>
+                                        <button type="button" class="btn btn-sm btn-primary mx-4"><i class="fa fa-plus"></i></button>
                                     </div>
 
                                     <div class="d-flex justify-content-between mt-4">
@@ -52,6 +52,7 @@
                                         <p class="mb-0"><span><strong>Rs. 110.00</strong></span></p>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -108,8 +109,43 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    
+                <div class="col-md-4 shadow border-0 h-100">
+                    <p>Price details</p>
+                    <div class="row px-3 d-flex justify-content-between">
+                        <div class="col-md-6">
+                            <p>price (1 item) </p>
+                            <p>Discount</p>
+                            <p>Delivery Charges</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p>111111</p>
+                            <p>111111</p>
+                            <p>Free</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row px-3 d-flex justify-content-between">
+                        <div class="col-md-6">
+                            <p>Total </p>
+                        </div>
+                        <div class="col-md-4">
+                            <p>111111</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row px-3 d-flex justify-content-between">
+                        <div class="col-md-6">
+                            <p>Total </p>
+                        </div>
+                        <div class="col-md-4">
+                            <p>111111</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col shadow-lg d-flex justify-content-end">
+                    <button type="submit" class="btn btn-lg btn-danger">Place Order</button>
                 </div>
             </div>
         </div>
